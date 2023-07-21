@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="/src/input.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/social-media-dashboard-with-theme-switcher-master/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="/script.js" defer></script>
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+</head>
+<body class="transition relative w-full h-auto font-inter dark:bg-veryDarkBlue">
+  <section class="absolute -z-10 w-full h-full">
+    <div class="transition w-full h-[300px] bg-veryLightBlue dark:bg-veryDarkBlueTopPattern"></div>
+  </section>
+  <section class="w-[390px] h-auto mx-auto flex flex-col justify-center items-center md:w-[1440px]">
+    <div class="mt-[40px] w-[80%] flex flex-col justify-between items-start space-y-12 md:w-full md:items-center md:flex-row md:space-y-0">
+      <div class=" md:space-y-2">
+        <h2 class="text-2xl font-bold text-veryDarkBlueText md:text-4xl
+        dark:text-white">Social Media Dashboard</h2>
+        <h3 class="text-sm font-bold text-darkGrayishBlue md:text-lg dark:text-desaturatedBlue">Total Followers: 23,004</h3>
+      </div>
+      <div class="w-full h-[2px] bg-lightToggle md:hidden"></div>
+      <div class="w-full flex justify-between  items-center space-x-3 md:w-auto md:justify-center">
+        <h3 class="text-darkGrayishBlue font-bold text-lg dark:text-desaturatedBlue">Dark Mode</h3>
+        <button id="dark-toggle" class="w-[58px] h-[32px] p-[4px] rounded-full bg-lightToggle flex justify-end items-center
+        dark:bg-gradient-to-r dark:from-darkToggle1 dark:to-darkToggle2">
+          <div id="bttn-theme" class="transition w-[22px] h-[22px] rounded-full bg-white dark:bg-darkDesaturatedBlue"></div>
+        </button>
+      </div>
+    </div>
+    <div class="mt-[40px] grid gap-[20px] grid-cols-1 md:gap-[40px] md:grid-cols-4 ">
+      <!--Facebook-->
+      <div class="w-[330px] rounded-lg overflow-hidden bg-lightGrayishBlue flex flex-col 
+      justify-start items-center space-y-4 dark:bg-darkDesaturatedBlue">
+        <div class="w-[375px] h-[5px] bg-facebook"></div>
+        <div class="p-7 flex flex-col justify-start items-center space-y-4">
+          <a class="flex justify-center items-center space-x-5" href="#">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg" alt="">
+            <h4 class="font-bold text-darkGrayishBlue dark:text-desaturatedBlue">
+              @nathanf
+            </h4>
+          </a>
+          <h1 class="text-7xl text-veryDarkBlueText font-bold dark:text-white">1987</h1>
+          <h4 class="text-lg tracking-widest text-darkGrayishBlue dark:text-desaturatedBlue">FOLLOWERS</h4>
+          <div class="flex justify-center items-center space-x-2">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+            <h5 class="text-limeGreen font-bold">12 Today</h5>
+          </div>
+        </div>
+      </div>
+      <!--Twitter-->
+      <div class="w-[330px] rounded-lg overflow-hidden bg-lightGrayishBlue flex flex-col 
+      justify-start items-center space-y-4 dark:bg-darkDesaturatedBlue">
+        <div class="w-[375px] h-[5px] bg-twitter"></div>
+        <div class="p-7 flex flex-col justify-start items-center space-y-4">
+          <a class="flex justify-center items-center space-x-5" href="#">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg" alt="">
+            <h4 class="font-bold text-darkGrayishBlue dark:text-desaturatedBlue">
+              @nathanf
+            </h4>
+          </a>
+          <h1 class="text-7xl text-veryDarkBlueText font-bold dark:text-white">1044</h1>
+          <h4 class="text-lg tracking-widest text-darkGrayishBlue dark:text-desaturatedBlue">FOLLOWERS</h4>
+          <div class="flex justify-center items-center space-x-2">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+            <h5 class="text-limeGreen font-bold">99 Today</h5>
+          </div>
+        </div>
+      </div>
+      <!--Instagram-->
+      <div class="w-[330px] rounded-lg overflow-hidden bg-lightGrayishBlue flex flex-col 
+      justify-start items-center space-y-4 dark:bg-darkDesaturatedBlue">
+        <div class="w-[375px] h-[5px] bg-gradient-to-r from-instagram1 to-instagram2"></div>
+        <div class="p-7 flex flex-col justify-start items-center space-y-4">
+          <a class="flex justify-center items-center space-x-5" href="#">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg" alt="">
+            <h4 class="font-bold text-darkGrayishBlue dark:text-desaturatedBlue">
+              @realnathanf
+            </h4>
+          </a>
+          <h1 class="text-7xl text-veryDarkBlueText font-bold dark:text-white">11K</h1>
+          <h4 class="text-lg tracking-widest text-darkGrayishBlue dark:text-desaturatedBlue">FOLLOWERS</h4>
+          <div class="flex justify-center items-center space-x-2">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+            <h5 class="text-limeGreen font-bold">1099 Today</h5>
+          </div>
+        </div>
+      </div>
+      <!--Youtube-->
+      <div class="w-[330px] rounded-lg overflow-hidden bg-lightGrayishBlue flex flex-col 
+      justify-start items-center space-y-4 dark:bg-darkDesaturatedBlue">
+        <div class="w-[375px] h-[5px] bg-youtube"></div>
+        <div class="p-7 flex flex-col justify-start items-center space-y-4">
+          <a class="flex justify-center items-center space-x-5" href="#">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg" alt="">
+            <h4 class="font-bold text-darkGrayishBlue dark:text-desaturatedBlue">
+              @nathanf
+            </h4>
+          </a>
+          <h1 class="text-7xl text-veryDarkBlueText font-bold dark:text-white">8239</h1>
+          <h4 class="text-lg tracking-widest text-darkGrayishBlue dark:text-desaturatedBlue">FOLLOWERS</h4>
+          <div class="flex justify-center items-center space-x-2">
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-down.svg" alt="">
+            <h5 class="text-brightRed font-bold">144 Today</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[40px] w-full flex flex-col justify-center items-center">
+      <h2 class="w-[80%] text-2xl text-darkGrayishBlue font-bold md:w-full md:text-4xl">Overview - Today</h2>
+      <div class="mt-[20px] grid gap-[20px] grid-cols-1 md:gap-[40px] md:grid-cols-4">
+        <!--Facebook-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Page Views</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">87</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+              <h5 class="text-limeGreen font-bold">3%</h5>
+            </div>
+          </div>
+        </div>
+        <!--Facebook-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Likes</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-facebook.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">52</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-down.svg" alt="">
+              <h5 class="text-brightRed font-bold">2%</h5>
+            </div>
+          </div>
+        </div>
+        <!--Instagram-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Likes</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">5462</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+              <h5 class="text-limeGreen font-bold">2257%</h5>
+            </div>
+          </div>
+        </div>
+        <!--Instagram-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Page Views</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-instagram.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">52k</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+              <h5 class="text-limeGreen font-bold">1375%</h5>
+            </div>
+          </div>
+        </div>
+        <!--twitter-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Retweets</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">117</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+              <h5 class="text-limeGreen font-bold">303%</h5>
+            </div>
+          </div>
+        </div>
+        <!--twitter-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Likes</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-twitter.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">507</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-up.svg" alt="">
+              <h5 class="text-limeGreen font-bold">553%</h5>
+            </div>
+          </div>
+        </div>
+        <!--youtube-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Likes</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">107</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-down.svg" alt="">
+              <h5 class="text-brightRed font-bold">19%</h5>
+            </div>
+          </div>
+        </div>
+        <!--youtube-->
+        <div class="w-[330px]  py-[50px] px-12 rounded-lg bg-veryLightBlue flex flex-col 
+        justify-center items-center space-y-6 dark:bg-darkDesaturatedBlue">
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-darkGrayishBlue font-bold dark:text-desaturatedBlue">Total Views</h3>
+            <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-youtube.svg" alt="">
+          </div>
+          <div class="w-full flex justify-between items-center">
+            <h3 class="text-veryDarkBlueText text-4xl font-bold dark:text-white">1407</h3>
+            <div class="flex justify-center items-center space-x-3">
+              <img src="/social-media-dashboard-with-theme-switcher-master/images/icon-down.svg" alt="">
+              <h5 class="text-brightRed font-bold">12%</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
